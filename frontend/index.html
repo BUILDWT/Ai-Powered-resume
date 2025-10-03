@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe - AI Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>John Doe</h1>
+            <p>Software Engineer | AI Enthusiast | Cloud Architect</p>
+        </header>
+
+        <main>
+            <section id="about">
+                <h2>About Me</h2>
+                <p>Welcome to my portfolio! I specialize in building scalable cloud applications and exploring the frontiers of artificial intelligence. Feel free to ask my AI assistant anything about my skills, projects, or experience. It has been trained on my personal documents.</p>
+            </section>
+        </main>
+
+        <div class="chat-container">
+            <div class="chat-header">
+                <h3>Chat with my AI Assistant</h3>
+                <button id="toggle-chat-btn" aria-label="Toggle Chat">
+                    <i class="fas fa-chevron-up"></i>
+                </button>
+            </div>
+            <div class="chat-box" id="chat-box">
+                <!-- Messages will be appended here -->
+                <div class="message bot">
+                    <p>Hello! How can I help you learn more about John Doe today?</p>
+                </div>
+            </div>
+            <div class="chat-input-area">
+                <input type="text" id="user-input" placeholder="Ask about my projects, skills...">
+                <button id="send-btn" aria-label="Send Message">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
